@@ -1,17 +1,16 @@
-## Welcome to GitHub Pages
+##利用 github 建立个人博客测试
 
-You can use the [editor on GitHub](https://github.com/zhangmy885/zhangmy885.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+1、建立github项目，在利用new resposity建立新项目。 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 段落布局
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# 
 ## Header 2
 ### Header 3
 
