@@ -1,9 +1,8 @@
-##利用 github 建立个人博客测试
+利用 github 建立个人博客测试
 
-1、建立github项目，在利用new resposity建立新项目。 
-2、建立项目内容。
+1、建立github项目，在利用new resposity建立新项目。 <br/>
+2、建立项目内容。<br/>
 
-### 段落布局
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
