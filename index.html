@@ -159,7 +159,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/13/hello-world/">zhang meng ying&#39;s first github page</a>
+      <a class="article-title" href="/2021/07/13/hello-world/">张梦影的 first github page</a>
     </h1>
   
 
@@ -172,8 +172,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="A-happy-day"><a href="#A-happy-day" class="headerlink" title="A happy day"></a>A happy day</h2><h3 id="write-by-zhang-meng-ying"><a href="#write-by-zhang-meng-ying" class="headerlink" title="write by zhang meng ying"></a>write by zhang meng ying</h3><p>today I am so happy<br>哈哈哈</p>
-
+        <h2 id="write-by-zhang-meng-ying"><a href="#write-by-zhang-meng-ying" class="headerlink" title="write by zhang meng ying"></a>write by zhang meng ying</h2><p>哈哈哈，给梦影子撒花，庆祝！！！<br>终于实现了hexo和github的链接。<br>###首先第一步，成功安装hexo，建立github仓库。<br>###第二步配置ssh key<br>1、$ cd ~/. ssh #检查本机已存在的ssh密钥</p>
+<p>如果提示：No such file or directory 说明你是第一次使用git。</p>
+<p>2、ssh-keygen -t rsa -C “邮件地址”<br>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：<br>将刚复制的内容粘贴到key那里，title随便填，保存。<br>3测试是否成功：<br>$ ssh -T <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;</a> # 注意邮箱地址不用改<br>如果提示Are you sure you want to continue connecting (yes/no)?，输入yes，然后会看到：</p>
+<p>Hi liuxianan! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
+<p>看到这个信息说明SSH已配置成功！</p>
+        
+          <a class="article-more-a" href="/2021/07/13/hello-world/#more">more >></a>
+        
       
 
       
