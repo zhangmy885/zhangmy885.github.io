@@ -25,7 +25,7 @@
   <style type="text/css">
   
     #container.show {
-      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+      background: linear-gradient(#200deg,#a0cfe4,#e8c37e);
     }
   </style>
   
@@ -80,12 +80,6 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=752544799&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
-		        
-					<a class="weixin" target="_blank" href="/assets/wechat.png" title="weixin"><i class="icon-weixin"></i></a>
-		        
 					<a class="linkedin" target="_blank" href="https://zhangmynenu.cn/" title="linkedin"><i class="icon-linkedin"></i></a>
 		        
 			</div>
@@ -121,12 +115,6 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=752544799&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
-			        
-						<a class="weixin" target="_blank" href="/assets/wechat.png" title="weixin"><i class="icon-weixin"></i></a>
-			        
 						<a class="linkedin" target="_blank" href="https://zhangmynenu.cn/" title="linkedin"><i class="icon-linkedin"></i></a>
 			        
 				</div>
@@ -710,7 +698,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>哈哈哈，给梦影子撒花，庆祝！！！<br>终于实现了hexo和github的链接。</p>
-<h3 id="第一步，成功安装hexo，建立github仓库。"><a href="#第一步，成功安装hexo，建立github仓库。" class="headerlink" title="第一步，成功安装hexo，建立github仓库。"></a>第一步，成功安装hexo，建立github仓库。</h3><h3 id="第二步配置ssh-key"><a href="#第二步配置ssh-key" class="headerlink" title="第二步配置ssh key"></a>第二步配置ssh key</h3><p>1、$ cd ~/. ssh #检查本机已存在的ssh密钥<br>如果提示：No such file or directory 说明你是第一次使用git。<br>2、ssh-keygen -t rsa -C “邮件地址”<br>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：<br>将刚复制的内容粘贴到key那里，title随便填，保存。<br>3测试是否成功：<br>$ ssh -T <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;</a> # 注意邮箱地址不用改<br>如果提示Are you sure you want to continue connecting (yes/no)?，输入yes，然后会看到：<br>Hi liuxianan! You’ve successfully authenticated, but GitHub does not provide shell access.<br>看到这个信息说明SSH已配置成功！</p>
+<h3 id="第一步，成功安装hexo，建立github仓库。"><a href="#第一步，成功安装hexo，建立github仓库。" class="headerlink" title="第一步，成功安装hexo，建立github仓库。"></a>第一步，成功安装hexo，建立github仓库。</h3><h3 id="第二步配置ssh-key"><a href="#第二步配置ssh-key" class="headerlink" title="第二步配置ssh key"></a>第二步配置ssh key</h3><p>1、$ cd ~/. ssh #检查本机已存在的ssh密钥<br>如果提示：No such file or directory 说明你是第一次使用git。<br>2、ssh-keygen -t rsa -C “邮件地址”<br>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：<br>将刚复制的内容粘贴到key那里，title随便填，保存。<br>3测试是否成功：<br>$ ssh -T <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#x6f;&#109;</a> # 注意邮箱地址不用改<br>如果提示Are you sure you want to continue connecting (yes/no)?，输入yes，然后会看到：<br>Hi liuxianan! You’ve successfully authenticated, but GitHub does not provide shell access.<br>看到这个信息说明SSH已配置成功！</p>
         
           <a class="article-more-a" href="/2021/07/13/hello-world/#more">more >></a>
         
